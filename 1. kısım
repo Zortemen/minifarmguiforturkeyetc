@@ -254,7 +254,7 @@ MainWindow:Toggle("Collect Loot Bags", {flag = 'Lootbags', default = _G.Lootbags
     end
 end)
 MainWindow:Button("Stat Tracker", function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/dPXXyp4A'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Zortemen/minifarmguiforturkeyetc/main/1.kisimpart2'))()
     wait(60)
     warn("60s has PASSED!")
 end)
